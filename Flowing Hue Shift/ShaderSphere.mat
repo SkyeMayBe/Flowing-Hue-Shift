@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderSphere
+  m_Shader: {fileID: 4800000, guid: f89fcb510fd110645aad1ee9e81a9606, type: 3}
+  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _3DNoiseTexture:
+        m_Texture: {fileID: 11700000, guid: 3620ad8b22b29ea4a9471ffa9b087878, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 11700000, guid: 8fcfe7866e23e074e93c0387e9d90552, type: 2}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _tex3coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Float0: 0
+    - _Float1: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 0
+    - _HueShiftSpeed: 0.085
+    - _InvertSaturation: 0
+    - _LerpOffset: 0
+    - _LerpSpeed: 0
+    - _LerpSpeedMultiplier: 0.4
+    - _MaximumMultiplierValue: 1.25
+    - _MaximumRenderRange: 35
+    - _Metallic: 0
+    - _MinimumMultiplierValue: 0.75
+    - _MinimumRenderRange: 30
+    - _Mode: 0
+    - _MultiplierValue1: 0
+    - _MultiplierValue2: 0
+    - _NoiseLerpSpeed: 0.4
+    - _NoiseOffset: 0
+    - _NoiseScale: 0.075
+    - _NoiseScale1: 0.15
+    - _NoiseScale2: 1
+    - _NoiseSpeed: 0.04
+    - _NoiseSpeedMultiplier: -0.04
+    - _NoiseType: 2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RenderSpace: 0
+    - _RotationSpeed: 0.04
+    - _Saturation: 1
+    - _SaturationLerpSpeed: 0
+    - _SaturationLerpToggle: 0
+    - _SaturationLurpToggle: 1
+    - _Scale: 7.54
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SwizzleRotation: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _3DNoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MinMaxRenderRange: {r: 37.5, g: 40, b: 0, a: 0}
+    - _RotationAxis: {r: 1, g: 1, b: 1, a: 1}
+    - _RotationVector: {r: -1, g: -1, b: 2, a: 0}
+    - _RotationVector1: {r: 2, g: -2, b: 3, a: 0}
+    - _RotationVector2: {r: -2, g: 2, b: -1, a: 0}
+    - _SaturationLerpMultiplier: {r: 0.5, g: 1.75, b: 0, a: 0}
+    - _SaturationLerpValues: {r: 0.75, g: 1.25, b: 0, a: 0}
+    - _SaturationLerpValuesMultiplier: {r: 0.5, g: 1.75, b: 0, a: 0}
+    - _Vector4: {r: 1, g: 1, b: 1, a: 1}
